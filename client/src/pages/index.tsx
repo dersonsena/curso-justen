@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 
-const foo = "aaaaaa"
-
 export default function Home({ title = 'Meu projeto no Next.js' }) {
   return (
     <div className={styles.container}>
